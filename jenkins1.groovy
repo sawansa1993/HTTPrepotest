@@ -1,9 +1,12 @@
 //Jenkins first pipeline SCM
 pipeline{
+agent any
 
+triggers {
+  cron '* * * * *'
+}
 
-  agent any
-
+  
   stages{
           stage("Build"){
             steps{
