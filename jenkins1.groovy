@@ -1,7 +1,8 @@
 //Jenkins first pipeline SCM
 pipeline{
 
-any agent 
+
+  agent any
 
   stages{
           stage("Build"){
