@@ -1,1 +1,1 @@
-echo "My jenkins job"
+echo "My jenkins job running"
